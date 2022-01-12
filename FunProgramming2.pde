@@ -6,7 +6,7 @@ void draw() {
 
 void keyPressed() {
   if (key == 's') {
-    save("my_drawing.png");
+ //   save("my_drawing.png");
   }
   if (key == 'b') {
     background(random(255), random(255), random(255));
